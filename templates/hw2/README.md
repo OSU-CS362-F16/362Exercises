@@ -17,16 +17,16 @@ Create a new method called `testX` where `X` is the name of each of the four fun
 
 ## Part 2) The blackjack game
 
-***Something something story developer leave***
-
-The developer left a note that there was a serious bug that was
-affecting a previous version of certain card games. During the
+You just joined a team that is working on an online Blackjack
+server. The developer left a note that there was a serious bug that
+was affecting a previous version of certain card games. During the
 execution of a game, it appeared as if cards within the deck switched
 positions. and that they suspected the error was somewhere in either
 the Card or CardCollection classes.
 
-Your task is to a) find the issue and b) create a suite of units test
-to find existing issues and prevent future ones.
+Your task is to examine the two classes a) find the issue and b)
+create a suite of units test to find existing issues and prevent
+future ones.
 
 ### Part 2a) Writing a test suite
 
@@ -39,8 +39,8 @@ To write new test suites, you'll need to mimic the WarmupTest.java
 class. In particular: 
 
  - Your class must extend TestCase
- - Your class must provide method public static Test suite() 
- - Each test case method must start with test...
+ - Your class must provide method public static Test suite() that mimics the form of WarmupTest.java
+ - Each test case method must start with `test`...
 
 It is good practice to use a new method for each piece of
 functionality you might test.  Similar test cases (e.g., testing a
@@ -69,3 +69,9 @@ If you were unable describe your approach to developing your test suite and just
 * All test suite files from part 2a) 
 * Written answers from part 2b) in `submissions/README.md`
 
+
+## How to submit
+
+Create a new branch of your repository called HW2 containing your
+final submission.  This branch must be created before the due date to
+receive credit.

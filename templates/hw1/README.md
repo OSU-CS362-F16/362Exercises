@@ -4,15 +4,19 @@ In this assignment, you'll setting up your development environment and becoming 
 
 # Setup
 
-If you haven't already, go to github.com and sign up for an account.  I also strongly suggest you [generate an SSH key] ( https://help.github.com/articles/generating-an-ssh-key/) for GitHub so you don't have to enter your password repeatedly.   Next, visit GitHub Classroom to clone the class repository (FIXME) 
+If you haven't already, go to github.com and sign up for an account.  You'll also need to [generate an SSH key] ( https://help.github.com/articles/generating-an-ssh-key/) for GitHub so you don't have to enter your password repeatedly.
 
-After you create your new repository, you should be redirected to your own fork of the instructor's repository.  This is your private area within GitHub to work on assignments and submit your work.  To start writing code and modifying your repository, you need to clone your GitHub (hereafter referred to as "remote") repository on to your local machine.  Copy the HTTPS URL of your repository from your browser and issue the following command from your EECS Unix account
+
+Next, visit GitHub Classroom to clone the class repository [here](https://classroom.github.com/assignment-invitations/58ed997ee132f36cb0de11df3acd9364):
+
+
+After you create your new repository, you should be redirected to your own fork of the instructor's repository.  This is your private area within GitHub to work on assignments and submit your work.  To start writing code and modifying your repository, you need to clone your GitHub (hereafter referred to as "remote") repository on to your local machine.  Copy the clone URL of your repository from your browser and issue the following command from your EECS Unix account
 
 `$ git clone <URL>`
 
 For example, my command might look like
 
-`$ git clone https://github.com/CS362-OSUF16/osu322f16-assignment-dfb-osu`
+`$ git clone git@git://github.com/CS362-OSUF16/osu322f16-assignment-dfb-osu`
 
 This will clone the main class repository, creating a copy of both the repository and the indiviual files in a subdirectory based on the GitHub URL. 
 
