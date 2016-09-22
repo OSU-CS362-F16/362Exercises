@@ -43,7 +43,9 @@ The `testBasicFunctionality` test is what's called a *functional test* - it test
 Answer the following questions and put the answers in `submissions/hw3/P2.txt`
 
 1) Explore your Cobertura site and find a branch (`for`/`if`) that has been 'covered' (a hit count of greater than zero on the left column near the line number) but is highlighted red.  What does this indicate?
+
 2) Why are Java interfaces always marked with N/A for coverage?
+
 3) From a debugging perspective, what is the disadvantage of a functional test like `testBasicFunctionality`?
 
 
@@ -51,7 +53,15 @@ Answer the following questions and put the answers in `submissions/hw3/P2.txt`
 
 **BEFORE ATTEMPTING THIS SECTION: Comment out all of the functions within `SimpleBlackjackTest` and uncomment your code from `MySuiteTest`! Your tests must achieve the target WITHOUT using the SimpleBlackjack class**
 
-Now measure the coverage of your code. If you have less than 80% coverage, fill in the gaps and until you achieve it. Take a screenshot of your coverage and submit it as `submissions/hw3/P3.<jpg/pdf>`.
+Now measure the coverage of your code. If you have less than 80% line coverage, fill in the gaps and until you achieve it. Take a screenshot of your coverage and submit it as `submissions/hw3/P3.<jpg/pdf>`. 
+
+### Part 4)
+Answer the following questions and put the answers in `submissions/hw3/P4.txt`
+
+1) True or False: A good test suite has good coverage
+2) True or False: A suite with good coverage implies a good test suite
+3) True or False: 100% Line/Statement Coverage implies 100% Branch Coverage
+4) True or False: 100% Branch Coverage implies 100% Line/Statement Coverage
 
 ## How to submit
 
@@ -61,6 +71,9 @@ receive credit, the latest commit prior to the deadline will be graded.
 
 ## Submission checklist 
 
+Make sure you've uncommented any tests in the `MySuiteTest` class before submitting
+
 * `submissions/hw3/src/test/java/edu/osu/blackjack/MySuiteTest.java`
 * `submissions/hw3/P2.txt`
 * `submissions/hw3/P3.<jpg/pdf>`
+* `submissions/hw3/P4.txt`
