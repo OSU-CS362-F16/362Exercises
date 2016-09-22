@@ -59,9 +59,14 @@ Now measure the coverage of your code. If you have less than 80% line coverage, 
 Answer the following questions and put the answers in `submissions/hw3/P4.txt`
 
 1) True or False: A good test suite has good coverage
+
 2) True or False: A suite with good coverage implies a good test suite
+
 3) True or False: 100% Line/Statement Coverage implies 100% Branch Coverage
+
 4) True or False: 100% Branch Coverage implies 100% Line/Statement Coverage
+
+5) Describe how you intuitions for what consitutes a quality test suite aligned (or did not) with your initial coverage results in problem 3
 
 ## How to submit
 
