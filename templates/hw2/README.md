@@ -8,7 +8,7 @@
 tar -xvf apache-maven-3.3.9.tar
 ~~~
 
-We will be using the Maven `mvn` command frequently and we highly recommend you create an alias to the `bin/apache-maven-3.3.9/bin` in your *NIX shell.  
+We will be using the Maven `mvn` command frequently and we highly recommend you add the `bin/apache-maven-3.3.9/bin` to your PATH variable  
 
 * Get the latest files from the instructor's repository by running 
 
