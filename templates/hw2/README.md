@@ -3,14 +3,22 @@
 ## Preliminaries
 
 * You'll first need to download and unzip Maven 3.3.9 if you haven't done so already. We will be using the Maven `mvn` command frequently and we highly recommend you create an alias to the `<maven directory>/bin` in your *NIX shell.
-* Get the latest files from the instructor's repository by running the `bin/sync` script
+* Get the latest files from the instructor's repository by running 
+
+~~~
+    git remote add upstream "https://github.com/OSU-CS362-F16/362Exercises"
+    git checkout master              # make sure we're on the master branch
+    git fetch upstream             # pull any information about changes in upstream
+    git merge upstream/master -m "Sync" # merge new files
+~~~
+
 * Copy the contents `templates/hw2` to `submissions/hw2`.  `git add` the copied files and then commit to your local repository
 
 ## Part 1) Warm up
 
 The file `submissions/hw2/src/main/java/edu/osu/cs362/WarmUp.java` contains 4 functions for which you are to develop unit tests. We will be using a tool called JUnit which is a unit test framework for Java.  The file `submissions/hw2/src/test/java/edu/osu/cs362/WarmupTest.java` is provided to you with an example unit test
 
-Create a new method called `testX` where `X` is the name of each of the four functions in the Warmup class.  Create a set of tests for each of these four functions and answer the following questions for each
+Create a new method called `testX` where `X` is the name of each of the four functions in the Warmup class.  Create a set of tests for each of these four functions and answer the following questions for each and submit the answers in `submissions/hw2/P1.txt`
 
 * Over what inputs, if any, does this function throw an Exception?
 * Over what inputs, if any, does this function provide incorrect output?
@@ -52,7 +60,7 @@ same method
 
 ## Part 2b) The bug
 
-If you were able to find an issue like the one described above, answer the following
+If you were able to find an issue like the one described above, answer the following in `submissions/hw2/P2.txt`
 
   - What is the bug? Concisely describe it and provide a test case that reproduces it. Include a JUnit case in your writeup that replicates the error.  Be clear as to what the expected and actual outputs look like 
   - Would this error surface when the class was used for the following:
@@ -64,10 +72,12 @@ If you were unable describe your approach to developing your test suite and just
 
 ## What to submit
 
+Your code must 
+
 * All test suite files from part 1)
-* Written answers from part 1) in `submissions/README.md`
+* Written answers from part 1) in `submissions/hw2/P1.txt`
 * All test suite files from part 2a) 
-* Written answers from part 2b) in `submissions/README.md`
+* Written answers from part 2b) in `submissions/hw2/P2.txt`
 
 
 ## How to submit
