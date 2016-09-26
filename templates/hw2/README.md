@@ -2,7 +2,12 @@
 
 ## Preliminaries
 
-* You'll first need to untar Maven 3.3.9 from the `bin` directory in the root of the repository if you haven't done so already. We will be using the Maven `mvn` command frequently and we highly recommend you create an alias to the `<untarred maven directory>/bin` in your *NIX shell.
+* You'll first need to untar Maven 3.3.9 from the `bin` directory in the root of the repository if you haven't done so already.  From the `templates/hw2` folder:
+
+~~~
+cp 
+
+We will be using the Maven `mvn` command frequently and we highly recommend you create an alias to the `<untarred maven directory>/bin` in your *NIX shell.
 * Get the latest files from the instructor's repository by running 
 
 ~~~
