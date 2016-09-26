@@ -16,6 +16,32 @@
 
 ## Part 1) Warm up
 
+First, `cd` into the `submissions/hw2` directory and make sure you can run Maven and compile using
+
+`mvn compile test`
+
+The tail of your output should look like this
+
+~~~~
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.osu.cs362.WarmupTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.385 s
+[INFO] Finished at: 2016-09-26T09:44:57-07:00
+[INFO] Final Memory: 19M/1109M
+[INFO] ------------------------------------------------------------------------
+~~~
+
 The file `submissions/hw2/src/main/java/edu/osu/cs362/WarmUp.java` contains 4 functions for which you are to develop unit tests. We will be using a tool called JUnit which is a unit test framework for Java.  The file `submissions/hw2/src/test/java/edu/osu/cs362/WarmupTest.java` is provided to you with an example unit test
 
 Create a new method called `testX` where `X` is the name of each of the four functions in the Warmup class.  Create a set of tests for each of these four functions and answer the following questions for each and submit the answers in `submissions/hw2/P1.txt`
