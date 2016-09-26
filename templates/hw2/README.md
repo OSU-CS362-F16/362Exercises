@@ -8,7 +8,7 @@
 tar -xvf apache-maven-3.3.9.tar
 ~~~
 
-We will be using the Maven `mvn` command frequently and we highly recommend you add the `<untarred maven directory>/bin`  to your PATH variable  
+We will be using the Maven `mvn` command frequently and we highly recommend you add the `<untarred maven directory>/bin`  to your PATH variable.  If you don't, you'll need to substitute `mvn` with `<untarred maven directory>/bin/mvn` 
 
 * Get the latest files from the instructor's repository by running 
 
