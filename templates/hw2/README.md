@@ -3,7 +3,16 @@
 ## Preliminaries
 
 * You'll first need to download and unzip Maven 3.3.9 if you haven't done so already. We will be using the Maven `mvn` command frequently and we highly recommend you create an alias to the `<maven directory>/bin` in your *NIX shell.
-* Get the latest files from the instructor's repository by running the `bin/sync` script
+* Get the latest files from the instructor's repository by running 
+
+~~~
+    git remote add upstream "https://github.com/OSU-CS362-F16/362Exercises"
+    git checkout master              # make sure we're on the master branch
+    git fetch upstream             # pull any information about changes in upst\
+ream
+    git merge upstream/master -m "Sync" # merge new files
+~~~
+
 * Copy the contents `templates/hw2` to `submissions/hw2`.  `git add` the copied files and then commit to your local repository
 
 ## Part 1) Warm up
