@@ -8,8 +8,7 @@
 ~~~
     git remote add upstream "https://github.com/OSU-CS362-F16/362Exercises"
     git checkout master              # make sure we're on the master branch
-    git fetch upstream             # pull any information about changes in upst\
-ream
+    git fetch upstream             # pull any information about changes in upstream
     git merge upstream/master -m "Sync" # merge new files
 ~~~
 
