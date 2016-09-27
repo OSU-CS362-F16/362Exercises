@@ -1,6 +1,8 @@
 package edu.osu.cs362;
 
 import static org.junit.Assert.*;
+import org.junit.Test;
+
 
 public class WarmupTest  {
     @Test
