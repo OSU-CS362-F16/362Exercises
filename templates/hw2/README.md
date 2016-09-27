@@ -2,8 +2,16 @@
 
 ## Preliminaries
 
-* You'll first need to download and unzip Maven 3.3.9 if you haven't done so already. We will be using the Maven `mvn` command frequently and we highly recommend you create an alias to the `<maven directory>/bin` in your *NIX shell.
+* You'll first need to untar Maven 3.3.9 from the `bin` directory in the root of the repository if you haven't done so already.  From the `templates/hw2` folder:
+
+~~~
+tar -xvf apache-maven-3.3.9.tar
+~~~
+
+We will be using the Maven `mvn` command frequently and we highly recommend you add the `<untarred maven directory>/bin`  to your PATH variable.  If you don't, you'll need to substitute `mvn` with `<untarred maven directory>/bin/mvn` 
+
 * Get the latest files from the instructor's repository by running 
+
 
 ~~~
     git remote add upstream "https://github.com/OSU-CS362-F16/362Exercises"
@@ -11,6 +19,12 @@
     git fetch upstream             # pull any information about changes in upstream
     git merge upstream/master -m "Sync" # merge new files
 ~~~
+
+You should now have new files in your `templates/hw2` directory
+
+**WARNING: If you tried running the `bin/sync` script, you'll need to do `git remote remove upstream` first**
+
+
 
 * Copy the contents `templates/hw2` to `submissions/hw2`.  `git add` the copied files and then commit to your local repository
 
@@ -44,7 +58,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 
 The file `submissions/hw2/src/main/java/edu/osu/cs362/WarmUp.java` contains 4 functions for which you are to develop unit tests. We will be using a tool called JUnit which is a unit test framework for Java.  The file `submissions/hw2/src/test/java/edu/osu/cs362/WarmupTest.java` is provided to you with an example unit test
 
-Create a new method called `testX` where `X` is the name of each of the four functions in the Warmup class.  Create a set of tests for each of these four functions and answer the following questions for each and submit the answers in `submissions/hw2/P1.txt`
+Create a new method called `@Test public void testX(){...}` where `X` is the name of each of the four functions in the Warmup class.  Create a set of tests for each of these four functions and answer the following questions for each and submit the answers in `submissions/hw2/P1.txt`
 
 * Over what inputs, if any, does this function throw an Exception?
 * Over what inputs, if any, does this function provide incorrect output?
@@ -72,9 +86,7 @@ Create two new files in your submissions/hw2 directory:
 To write new test suites, you'll need to mimic the WarmupTest.java
 class. In particular: 
 
- - Your class must extend TestCase
- - Your class must provide method public static Test suite() that mimics the form of WarmupTest.java
- - Each test case method must start with `test`...
+ - Each test case method must begin with @Test
 
 It is good practice to use a new method for each piece of
 functionality you might test.  Similar test cases (e.g., testing a
