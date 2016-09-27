@@ -83,13 +83,16 @@ future ones.
 
 Create two new files in your submissions/hw2 directory:
 
-* submissions/hw2src/test/java/edu/osu/cs362/CardCollectionTest.java 
-* submissions/hw2src/test/java/edu/osu/cs362/CardTest.java 
+* submissions/hw2/src/test/java/edu/osu/cs362/CardCollectionTest.java 
+* submissions/hw2/src/test/java/edu/osu/cs362/CardTest.java 
 
 To write new test suites, you'll need to mimic the WarmupTest.java
 class. In particular: 
 
  - Each test case method must begin with @Test
+ - All classes (.java files) must end in ...Test  (which you've already done above if you named your files as described)
+ 
+Maven automatically runs the tests from classes in folder `src/test` fulfilling these two requirements.
 
 It is good practice to use a new method for each piece of
 functionality you might test.  Similar test cases (e.g., testing a
