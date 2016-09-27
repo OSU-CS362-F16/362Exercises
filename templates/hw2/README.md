@@ -58,7 +58,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 
 The file `submissions/hw2/src/main/java/edu/osu/cs362/WarmUp.java` contains 4 functions for which you are to develop unit tests. We will be using a tool called JUnit which is a unit test framework for Java.  The file `submissions/hw2/src/test/java/edu/osu/cs362/WarmupTest.java` is provided to you with an example unit test
 
-Create a new method called `testX` where `X` is the name of each of the four functions in the Warmup class.  Create a set of tests for each of these four functions and answer the following questions for each and submit the answers in `submissions/hw2/P1.txt`
+Create a new method called `@Test public void testX(){...}` where `X` is the name of each of the four functions in the Warmup class.  Create a set of tests for each of these four functions and answer the following questions for each and submit the answers in `submissions/hw2/P1.txt`
 
 * Over what inputs, if any, does this function throw an Exception?
 * Over what inputs, if any, does this function provide incorrect output?
@@ -86,9 +86,7 @@ Create two new files in your submissions/hw2 directory:
 To write new test suites, you'll need to mimic the WarmupTest.java
 class. In particular: 
 
- - Your class must extend TestCase
- - Your class must provide method public static Test suite() that mimics the form of WarmupTest.java
- - Each test case method must start with `test`...
+ - Each test case method must begin with @Test
 
 It is good practice to use a new method for each piece of
 functionality you might test.  Similar test cases (e.g., testing a
