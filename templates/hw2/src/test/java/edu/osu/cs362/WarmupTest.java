@@ -1,31 +1,9 @@
 package edu.osu.cs362;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
 import static org.junit.Assert.*;
 
-public class WarmupTest extends TestCase {
-	/**
-	 * Create the test case
-	 *
-	 * @param testName
-	 *            name of the test case
-	 */
-	public WarmupTest(String testName) {
-		super(testName);
-	}
-
-	/**
-	 * @return the suite of tests being tested
-	 */
-	public static Test suite() {
-		return new TestSuite(WarmupTest.class);
-	}
-
-	/**
-	 * Rigourous Test :-)
-	 */
+public class WarmupTest  {
+    @Test
     public void testFindIntegerExample() {
 
 		int result = WarmUp.findInteger(new int[] { 1, 2, 3, 4, 5 }, 100);
