@@ -12,12 +12,19 @@ We will be using the Maven `mvn` command frequently and we highly recommend you 
 
 * Get the latest files from the instructor's repository by running 
 
+
 ~~~
     git remote add upstream "https://github.com/OSU-CS362-F16/362Exercises"
     git checkout master              # make sure we're on the master branch
     git fetch upstream             # pull any information about changes in upstream
     git merge upstream/master -m "Sync" # merge new files
 ~~~
+
+You should now have new files in your `templates/hw2` directory
+
+**WARNING: If you tried running the `bin/sync` script, you'll need to do `git remote remove upstream` first**
+
+
 
 * Copy the contents `templates/hw2` to `submissions/hw2`.  `git add` the copied files and then commit to your local repository
 
