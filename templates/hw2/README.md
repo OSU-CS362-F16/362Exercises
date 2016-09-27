@@ -90,7 +90,8 @@ To write new test suites, you'll need to mimic the WarmupTest.java
 class. In particular: 
 
  - Each test case method must begin with @Test
- - All classes (.java files) must end in ...Test  (which you've already done above if you named your files as described)
+ - All classes (.java files) must end in ...Test.java  (which you've already done above if you named your files as described)
+ - All class names (`public class CardCollectionTest{...}`)  must reside in a .java file of the same name (`CardCollectionTest.java`)
  
 Maven automatically runs the tests from classes in folder `src/test` fulfilling these two requirements.
 
