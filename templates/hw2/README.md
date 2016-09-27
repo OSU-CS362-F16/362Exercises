@@ -120,6 +120,6 @@ Your code must
 
 ## How to submit
 
-Create a new branch of your repository called HW2 containing your
+Create a new branch of your repository called `hw2' containing your
 final submission.  This branch must be created before the due date to
 receive credit.
