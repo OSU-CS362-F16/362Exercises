@@ -24,8 +24,6 @@ You should now have new files in your `templates/hw2` directory
 
 **WARNING: If you tried running the `bin/sync` script, you'll need to do `git remote remove upstream` first**
 
-
-
 * Copy the contents `templates/hw2` to `submissions/hw2`.  `git add` the copied files and then commit to your local repository
 
 ## Part 1) Warm up
