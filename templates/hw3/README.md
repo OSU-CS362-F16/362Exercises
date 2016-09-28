@@ -3,7 +3,7 @@
 ## Preliminaries
 
 * Get the latest files from the instructor's repository by running the `bin/sync` script
-* Remember to submit under a new branch called HW3
+* Remember to submit under a new branch called `hw3`
 
 ## Useful links
 
