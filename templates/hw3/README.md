@@ -68,17 +68,21 @@ Answer the following questions and put the answers in `submissions/hw3/P4.txt`
 
 5) Describe how you intuitions for what consitutes a quality test suite aligned (or did not) with your initial coverage results in problem 3
 
-## How to submit
-
-Create a new branch of your repository called HW3 containing your
-final submission.  This branch must be created before the due date to
-receive credit, the latest commit prior to the deadline will be graded.
-
 ## Submission checklist 
 
-Make sure you've uncommented any tests in the `MySuiteTest` class before submitting
+Make sure you've uncommented any tests in the `MySuiteTest` class before submitting and you've done `git add` on
 
 * `submissions/hw3/src/test/java/edu/osu/blackjack/MySuiteTest.java`
 * `submissions/hw3/P2.txt`
 * `submissions/hw3/P3.<jpg/pdf>`
 * `submissions/hw3/P4.txt`
+
+Don't forget to `git commit` and `git push origin master`
+
+## How to submit
+
+Create a new branch of your repository called `hw3` containing your
+final submission.  This branch must be created before the due date to
+receive credit, the latest commit prior to the deadline will be graded.
+
+
