@@ -115,18 +115,18 @@ If you were able to find an issue like the one described above, answer the follo
 
 If you were unable describe your approach to developing your test suite and justify why the class is correct for the cases above
 
-## What to submit
+## Submission checklist
 
-Your code must 
+Did you `git add` ...
 
-* All test suite files from part 1)
-* Written answers from part 1) in `submissions/hw2/P1.txt`
-* All test suite files from part 2a) 
-* Written answers from part 2b) in `submissions/hw2/P2.txt`
+* All test suite files from part 1)?
+* Written answers from part 1) in `submissions/hw2/P1.txt`?
+* All test suite files from part 2a) ?
+* Written answers from part 2b) in `submissions/hw2/P2.txt`?
 
+Be sure to `git commit` and `git push origin master`
 
 ## How to submit
 
-Create a new branch of your repository called `hw2` containing your
-final submission.  This branch must be created before the due date to
+When you've done the above, create a new branch of your repository called `hw2`. `submissions/hw2` in branch `hw2` should contain all files from `templates/hw2` in addition to the files you added.   This branch must be created before the due date to
 receive credit.
