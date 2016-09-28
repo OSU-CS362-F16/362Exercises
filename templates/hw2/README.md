@@ -101,7 +101,7 @@ class constructor with differnet parameters) can be grouped in the
 same method
 
 - Write a suite of JUnit tests to test the Card class
-- Write a suite of JUnit tests for each method of the Hand class **excluding the `permute` function**. 
+- Write a suite of JUnit tests for each method of the CardCollection class **excluding the `permute` function**. 
 
 ## Part 2b) The bug
 
