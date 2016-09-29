@@ -13,7 +13,7 @@ You can untar into the `bin` directory or a directory of your chosing. We will b
 
 * Get the latest files from the instructor's repository by running (from your repository directory)
 
-
+**WARNING: If you tried running the `bin/sync` script prior to this exercise, you'll need to do `git remote remove upstream` first**
 ~~~
     git remote add upstream "https://github.com/OSU-CS362-F16/362Exercises"
     git checkout master              # make sure we're on the master branch
@@ -23,7 +23,7 @@ You can untar into the `bin` directory or a directory of your chosing. We will b
 
 You should now have new files in your `templates/hw2` directory
 
-**WARNING: If you tried running the `bin/sync` script, you'll need to do `git remote remove upstream` first**
+
 
 * Copy the contents `templates/hw2` to `submissions/hw2`.  `git add` the copied files and then commit to your local repository
 
