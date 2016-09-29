@@ -31,7 +31,18 @@ public class Card {
     public Card(Face face, Suit suit){
 	this.face = face;
 	this.suit = suit;
+
     }
+
+    @Override
+    public boolean equals(Object o){
+	if(!(o instanceof Card)) return false;
+	if(this == o) return true;
+	    
+	return this.toString().equals(o.toString());
+    }
+
+
 
     public String toString(){
 	return this.face.name() + this.suit.name();
