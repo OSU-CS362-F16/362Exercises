@@ -126,5 +126,5 @@ Be sure to `git commit` and `git push origin master`
 
 ## How to submit
 
-When you've done the above, create a new branch of your repository called `hw2`. `submissions/hw2` in branch `hw2` should contain all files from `templates/hw2` in addition to the files you added.   This branch must be created before the due date to
+When you've done the above, create a new branch of your repository called `hw2`. `submissions/hw2` in branch `hw2` should contain all files from `templates/hw2` in addition to the files you added.   This branch must be created and pushed to Github before the due date to
 receive credit.
