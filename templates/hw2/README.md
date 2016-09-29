@@ -13,7 +13,7 @@ You can untar into the `bin` directory or a directory of your chosing. We will b
 
 * Get the latest files from the instructor's repository by running (from your repository directory)
 
-**WARNING: If you tried running the `bin/sync` script prior to this exercise, you'll need to do `git remote remove upstream` first**
+**WARNING: Do not use the `bin/sync` script (yet). If you tried running the `bin/sync` script prior to this exercise, you'll need to do `git remote remove upstream` first**
 ~~~
     git remote add upstream "https://github.com/OSU-CS362-F16/362Exercises"
     git checkout master              # make sure we're on the master branch
