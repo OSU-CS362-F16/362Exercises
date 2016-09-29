@@ -68,10 +68,9 @@ Create a new method called `@Test public void testX(){...}` where `X` is the nam
 ## Part 2) The blackjack game
 
 You just joined a team that is working on an online Blackjack
-server. The developer left a note that there was a serious bug that
+server. The last developer left a note in a source control commit that there was a serious bug that
 was affecting a previous version of certain card games. During the
-execution of a game, it appeared as if cards within the deck switched
-positions. and that they suspected the error was somewhere in either
+execution of a game, it appeared as if certain cards changed position in the deck unexpectedly and that they suspected the error was somewhere in either
 the Card or CardCollection classes.
 
 Your task is to examine the two classes a) find the issue and b)
