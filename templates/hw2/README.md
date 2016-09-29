@@ -2,6 +2,7 @@
 
 ## Preliminaries
 
+* The only supported platform for this and all future assignments is EECS's `flip` server. You are welcome to use your own environment, but we can only provide support for issues on `flip`
 * You'll first need to untar Maven 3.3.9 from the `bin` directory in the root of the repository if you haven't done so already. 
 
 ~~~
