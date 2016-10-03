@@ -33,7 +33,7 @@ Run the following command
 
 `mvn cobertura:cobertura`
 
-This should generate a set of files in the `submissions/hw3/target/site` folder including an `index.html` file.  Open this file with a web browser.  If you are SSH'd into a server without X11 (user interface) forwarding, you may want to use the `deploy` script in the the `submissions/hw3` folder to copy the site to your EECS webspace.
+This should generate a set of files in the `submissions/hw3/target/site` folder including an `index.html` file.  Open this file with a web browser.  If you are SSH'd into a server without X11 (user interface) forwarding, you may want to use the `deploy` script in the the `submissions/hw3` folder to copy the site to your EECS webspace.  This will deploy the files to the `public_html` directory and you should be able to see the site at `http://web.engr.oregonstate.edu/~<ENGR user name>/report/cobertura/` 
 
 Your coverage report should be similar to this:
 ![](https://snag.gy/C3He0V.jpg)
