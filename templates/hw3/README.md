@@ -21,13 +21,13 @@ In this assignment, we'll look at using a code coverage tool to measure the qual
 
 Create a new JUnit test class in your `submissions/hw3` directory (follow the conventions described in the previous assignment about function names, etc):
 
-* `submissions/hw3/src/test/java/edu/osu/blackjack/MySuiteTest.java `
+* `submissions/hw3/src/test/java/edu/osu/blackjack/BlackjackTest.java `
 
 Write unit tests for all of the classes excluding `SimpleBlackjack` (i.e., do not use `SimpleBlackjack` at all) following your own intuition on what a good test suite might look like.  
 
 ## Part 2) Code Coverage using Cobertura
 
-**BEFORE ATTEMPTING THIS SECIION: Comment out all of the functions you just wrote within InitialTest!**
+**BEFORE ATTEMPTING THIS SECIION: Comment out all of the functions you just wrote within BlackjackTest!**
 
 Run the following command 
 
@@ -51,7 +51,7 @@ Answer the following questions and put the answers in `submissions/hw3/P2.txt`
 
 ### Part 3) 
 
-**BEFORE ATTEMPTING THIS SECTION: Comment out all of the functions within `SimpleBlackjackTest` and uncomment your code from `MySuiteTest`! Your tests must achieve the target WITHOUT using the SimpleBlackjack class**
+**BEFORE ATTEMPTING THIS SECTION: Comment out all of the functions within `SimpleBlackjackTest` and uncomment your code from `BlackjackTest`! Your tests must achieve the target WITHOUT using the SimpleBlackjack class**
 
 Now measure the coverage of your code. If you have less than 80% line coverage, fill in the gaps and until you achieve it. Take a screenshot of your coverage and submit it as `submissions/hw3/P3.<jpg/pdf>`. 
 
@@ -70,9 +70,9 @@ Answer the following questions and put the answers in `submissions/hw3/P4.txt`
 
 ## Submission checklist 
 
-Make sure you've uncommented any tests in the `MySuiteTest` class before submitting and you've done `git add` on
+Make sure you've uncommented any tests in the `BlackjackTest` class before submitting and you've done `git add` on
 
-* `submissions/hw3/src/test/java/edu/osu/blackjack/MySuiteTest.java`
+* `submissions/hw3/src/test/java/edu/osu/blackjack/BlackjackTest.java`
 * `submissions/hw3/P2.txt`
 * `submissions/hw3/P3.<jpg/pdf>`
 * `submissions/hw3/P4.txt`
