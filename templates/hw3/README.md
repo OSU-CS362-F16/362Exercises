@@ -21,7 +21,7 @@ In this assignment, we'll look at using a code coverage tool to measure the qual
 
 Create a new JUnit test class in your `submissions/hw3` directory (follow the conventions described in the previous assignment about function names, etc):
 
-* submissions/hw3/src/test/java/edu/osu/blackjack/MySuiteTest.java 
+* `submissions/hw3/src/test/java/edu/osu/blackjack/MySuiteTest.java `
 
 Write unit tests for all of the classes excluding `SimpleBlackjack` (i.e., do not use `SimpleBlackjack` at all) following your own intuition on what a good test suite might look like.  
 
