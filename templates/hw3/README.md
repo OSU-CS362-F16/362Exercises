@@ -2,7 +2,17 @@
 
 ## Preliminaries
 
-* Get the latest files from the instructor's repository by running the `bin/sync` script
+* Get the latest files from the instructor's repository by running 
+
+~~~
+    git checkout master              # make sure we're on the master branch
+    git fetch upstream             # pull any information about changes in upstream
+    git merge upstream/master -m "Sync" # merge new files
+~~~
+
+You should now have new files in your `templates/hw3` directory
+
+
 * Remember to submit under a new branch called `hw3`
 
 ## Useful links
