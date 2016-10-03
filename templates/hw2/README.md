@@ -103,7 +103,7 @@ same method
 
 ## Part 2b) The bug
 
-If you were able to find an issue like the one described above, answer the following in `submissions/hw2/P2.txt`
+If you were able to find an issue like the one described above (without calling `permute`, answer the following in `submissions/hw2/P2.txt`
 
   - What is the bug? Concisely describe it and provide a test case that reproduces it. Include a JUnit case in your writeup that replicates the error.  Be clear as to what the expected and actual outputs look like 
   - Would this error surface when the class was used for the following:
@@ -111,7 +111,7 @@ If you were able to find an issue like the one described above, answer the follo
    - ...a hand where the player is required to keep their cards in order?
    - ...a deck that is shuffled by removing cards from a random place in the deck and adding them back via method `add`?
 
-If you were unable describe your approach to developing your test suite and justify why the class is correct for the cases above
+If you were unable to find a bug like the one described above, describe your approach to developing your test suite and justify why the class is correct for the cases above.
 
 ## Submission checklist
 
