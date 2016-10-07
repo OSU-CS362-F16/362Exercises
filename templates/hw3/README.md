@@ -12,7 +12,7 @@ the copied files and then commit to your local repository
 Re-evaluate your test cases for lastZero and answer the following questions in `submissions/hw3/P1.txt`
 
 1) Is it possible to organize each of your test case functions into disjoint partitions? If so, describe 
-your partitioning scheme, making note of which test functions correspond to which parttion.  If not, come up with a new disjoint partitioning scheme and modify your tests to reflect your new scheme.
+your partitioning scheme, making note of which test functions correspond to which partition.  If not, come up with a new disjoint partitioning scheme and modify your tests to reflect your new scheme.
 
 2) Describe the advantage of having input disjoint test cases?
 
@@ -37,7 +37,10 @@ Consider the `CardCollection.discardCard` function. The function should remove t
 
 Answer the following questions in `submissions/hw3/P2.txt`
 
-1) Is this partitioning complete? In other words, does the partitioning above consider every possible state of CardCollection.cards and handPos?
+1a)  Why don't we need to consider a partition where CardCollection.cards is `null`? 
+1b) Do we consider every possible state of `CardCollection.cards` in at least one partition?
+1c) Do we consider every possible value of `handPos` in at least one partition?
+1d) Is this partitioning complete? In other words, does the partitioning above consider every possible combination of CardCollection.cards and handPos?  
 
 2)  Suppose we have a CardCollection  `cc` consisting of 2, 52-card decks (`Card.newDeck()*2`) and we produce a test like the one below
 
