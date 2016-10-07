@@ -4,7 +4,11 @@ In this assignment, you'll setting up your development environment and becoming 
 
 # Setup
 
+<<<<<<< HEAD
 If you haven't already, go to github.com and sign up for an account.  You'll also need to [generate an SSH key] (https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key) for GitHub so you don't have to enter your password repeatedly.
+=======
+If you haven't already, go to github.com and sign up for an account.  You'll also need to [generate an SSH key] ( https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key ) for GitHub so you don't have to enter your password repeatedly.
+>>>>>>> 29ebcd5c56ea003eeab9d860a6815781da7e2055
 
 
 Next, visit GitHub Classroom to clone the class repository [here](https://classroom.github.com/assignment-invitations/58ed997ee132f36cb0de11df3acd9364):
@@ -120,7 +124,7 @@ The repository that you have forked has following file structure
 
 In this course, we will be following these conventions:
 
-- All of the assignment files will be provided in the templates folder.  Your first course of action for each assignment should be to copy (using UNIX `cp`) the files from the templates directory to the submissions directory.  ***You should never alter files under submissions*** - in a future assignment, we will learn how to pull from instructors repository to get new assignments as the are available.
+- All of the assignment files will be provided in the templates folder.  Your first course of action for each assignment should be to copy (using UNIX `cp`) the files from the templates directory to the submissions directory.  ***You should never alter files under templates*** - in a future assignment, we will learn how to pull from instructors repository to get new assignments as the are available.
 - The submissions directory should contain your code, after adding all the files from the corresponding templates directory, you are free to alter the code as you wish. You should do your work against the master branch until you're ready to submit your code
 - When you are ready to submit your code, you will create a new branch called `hwX`, where X is the number of the assignment.  The instructor and TAs will pull from this branch on GitHub and your submission date will be the timestamp of the last commit on that branch. Do not commit to this branch after the deadline!
 - The walkthrough below should be similar for future assignments although you'll be working on multiple files.
