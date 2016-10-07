@@ -9,7 +9,7 @@ public class WarmupTest  {
     public void testFindIntegerExample() {
 
 		int result = WarmUp.findInteger(new int[] { 1, 2, 3, 4, 5 }, 100);
-		assertEquals(result, -1);
+		assertEquals(-1,result);
 
 		for (int i = 1; i < 5; i++) {
 			int result2 = WarmUp.findInteger(new int[] { 1, 2, 3, 4, 5 }, i + 1);
