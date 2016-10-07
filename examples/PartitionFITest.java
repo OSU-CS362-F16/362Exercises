@@ -16,8 +16,8 @@ public class PartitionFITest  {
     // B1 - arr = null, toFind = *
     // B2 - arr = any array where toFind exists, toFind = *
     //    B2_1 - arr = any array where toFind == arr[0], toFind = *
-    //       B2_1 - arr =  any array where toFind == arr[0], all are elements distinct 
-    //       B2_2 - arr =  any array where toFind == arr[0], there are duplicates
+    //       B2_1_1 - arr =  any array where toFind == arr[0], all are elements distinct 
+    //       B2_2_1 - arr =  any array where toFind == arr[0], there are duplicates
     //    B2_2 - arr = any array where toFind == arr[arr.length - 1], toFind = *
     //    B2_3 - arr = any array where toFind == arr[i], i!=0 && i!=(arr.length - 1), toFind = *
     // B3 - arr = any array where toFind does not exist, toFind = *
