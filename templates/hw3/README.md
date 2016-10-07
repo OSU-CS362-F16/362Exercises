@@ -72,8 +72,6 @@ that succeeds on ` testCardRemoveFromMiddle(1)` but fails on `testCardRemoveFrom
 
 3)  The current implementation (given in HW2 and unchanged here) fails for at least one of these partitions. Find at least one partition where this fails and identify the bug if you haven't already.  It is recommended you implement tests for each, but you are not required to submit them.
 
-4) *(Extra credit)* Describe a new, complete partitioning scheme for his 
-
 ## What to submit
 
 Did you `git add`
