@@ -1,7 +1,5 @@
 
-# Assignment 2
-
-## Overview
+# Assignment 3
 
 ## Preliminaries
 
@@ -11,23 +9,69 @@ the copied files and then commit to your local repository
 
 ## Part I
 
-Re-evaluate your test cases for lastZero and answer the following questions
+Re-evaluate your test cases for lastZero and answer the following questions in `submissions/hw3/P1.txt`
 
-1) Are the test cases in your original submission *disjoint*? That is,
-if we consider t
+1) Is it possible to organize each of your test case functions into disjoint partitions? If so, describe 
+your partitioning scheme, making note of which test functions correspond to which block/paritition.  If not, come up with a new disjoint partitioning scheme and modify your tests to reflect your new scheme.
 
-2) What's the advantage of having disjoint test cases in interface
-based input domain partitioning.
+2) What's the advantage of having strictly disjoint test cases?
 
-If you were able to find an issue like the one described above, answer the following in `submissions/hw2/P2.txt`
+
 
 ## Part II
+
+Consider the `CardCollection.discardCard` function. The function should remove the element at index `handPos` and leave the relative order of all other cards the same. When working with stateful objects, the behavior of a function is dependent on not only the function interface, but the state of the object itself. Consider the following partitioning 
+
+
+`Card.newDeck()` returns a new 52 card deck, below it indicates a CardCollection with a full deck. `Card.newDeck()*2` indicates a CardCollection containing two full decks
+
+| Partition | CardCollection.cards | handPos |  
+|---|---|---|
+|  b<sub>0</sub>  |  empty | 0  |
+|  b<sub>1</sub>  | Card.newDeck() | 0  |
+|  b<sub>2</sub> | Card.newDeck()  | cards.size()-1  |
+| b<sub>3</sub>  |  Card.newDeck() | 0&lt;x&lt;cards.size()-1  |
+|  b<sub>4</sub>  | Card.newDeck()*2  |  0 | 
+|  b<sub>5</sub> | Card.newDeck()*2  | cards.size()-1  | 
+| b<sub>6</sub>  | Card.newDeck()*2  | 0&lt;x&lt;cards.size()-1 | 
+
+Answer the following questions in `submissions/hw3/P2.txt`
+
+1) Is this partitioning complete? In other words, does the partitioning above consider every possible state of CardCollection.cards and handPos?
+
+2)  Suppose we have a CardCollection  `cc` consisting of 2, 52-card decks (`Card.newDeck()*2`) and we produce a test like the one below
+
+~~~
+    
+    public void testCardRemoveFromMiddle(int i){
+        CardCollection c = new CardCollection();
+        ArrayList<Card> comparison = Card.newDeck()
+        c.add(Card.newDeck());
+        c.add(Card.newDeck());
+        
+        int i = 1;
+        c.discardCard(i);  // remove last card
+        assertEquals(comparison.get(0),c.getCards().get(0)); // first element shouldn't change
+    }
+  
+    @Test public void testCardRemoveFromMiddle(){
+       testCardRemoveFromMiddle(1);
+       testCardRemoveFromMiddle(2);
+    }
+~~~
+
+that succeeds on ` testCardRemoveFromMiddle(1)` but fails on `testCardRemoveFromMiddle(2)` - what does this say about partition  b<sub>6</sub>?
+
+3)  The current implementation (given in HW2 and unchanged here) fails for at least one of these partitions. Find at least one partition where this fails and identify the bug if you haven't already.  It is recommended you implement tests for each, but you are not required to submit them.
+
+
 
 ## What to submit
 
 Did you `git add`
 
 * All of the files you copied from `submissions/hw2` to submissions/hw3`
+* Any files you modified above
 * Written answers from part 1) in `submissions/hw3/P1.txt`
 * Written answers from part 2) in `submissions/hw3/P2.txt`
 
