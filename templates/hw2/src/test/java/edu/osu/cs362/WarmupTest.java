@@ -13,7 +13,7 @@ public class WarmupTest  {
 
 		for (int i = 1; i < 5; i++) {
 			int result2 = WarmUp.findInteger(new int[] { 1, 2, 3, 4, 5 }, i + 1);
-			assertEquals("findInteger(new int[]{1,2,3,4,5}," + i + ")", result2, i);
+			assertEquals("findInteger(new int[]{1,2,3,4,5}," + i + ")", i,result2);
 		}
 	}
 }
