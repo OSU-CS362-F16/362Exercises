@@ -27,7 +27,6 @@ your partitioning scheme, making note of which test functions correspond to whic
 Consider the `CardCollection.discardCard` function. The function should remove the element at index `handPos` and leave the relative order of all other cards the same. When working with stateful objects, the behavior of a function is dependent on not only the function interface, but the state of the object itself. Consider the following partitioning 
 
 
-`Card.newDeck()` returns a new 52 card deck, below it indicates a CardCollection with a full deck. `Card.newDeck()*2` indicates a CardCollection containing two full decks
 
 | Partition | CardCollection.cards | handPos |  
 |---|---|---|
@@ -38,6 +37,10 @@ Consider the `CardCollection.discardCard` function. The function should remove t
 |  b<sub>4</sub>  | Card.newDeck()*2  |  0 | 
 |  b<sub>5</sub> | Card.newDeck()*2  | cards.size()-1  | 
 | b<sub>6</sub>  | Card.newDeck()*2  | 0&lt;x&lt;cards.size()-1 | 
+
+<sub>
+`Card.newDeck()` returns a new 52 card deck, below it indicates a CardCollection with a full deck. `Card.newDeck()*2` indicates a CardCollection containing two full decks
+</sub>
 
 Answer the following questions in `submissions/hw3/P2.txt`
 
