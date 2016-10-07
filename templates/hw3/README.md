@@ -1,8 +1,10 @@
 
-# Assignment 3
+# Assignment 3: Input Domain Partitioning
 
 ## Preliminaries
 
+* Completion of this assignment is not required, but it may help you on HW3
+* You may turn in the written sections of this assignment for extra credit
 * You'll be making some improvements on your HW2 code this week.  Copy
 the entire contents `submissions/hw2` to `submissions/hw3`.  `git add`
 the copied files and then commit to your local repository
