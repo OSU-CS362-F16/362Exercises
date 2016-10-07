@@ -12,7 +12,7 @@ the copied files and then commit to your local repository
 Re-evaluate your test cases for lastZero and answer the following questions in `submissions/hw3/P1.txt`
 
 1) Is it possible to organize each of your test case functions into disjoint partitions? If so, describe 
-your partitioning scheme, making note of which test functions correspond to which block/paritition.  If not, come up with a new disjoint partitioning scheme and modify your tests to reflect your new scheme.
+your partitioning scheme, making note of which test functions correspond to which parttion.  If not, come up with a new disjoint partitioning scheme and modify your tests to reflect your new scheme.
 
 2) What's the advantage of having strictly disjoint test cases?
 
