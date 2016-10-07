@@ -14,7 +14,7 @@ Re-evaluate your test cases for lastZero and answer the following questions in `
 1) Is it possible to organize each of your test case functions into disjoint partitions? If so, describe 
 your partitioning scheme, making note of which test functions correspond to which parttion.  If not, come up with a new disjoint partitioning scheme and modify your tests to reflect your new scheme.
 
-2) What's the advantage of having strictly disjoint test cases?
+2) Describe the advantage of having input disjoint test cases?
 
 
 
