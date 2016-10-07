@@ -9,12 +9,14 @@ the copied files and then commit to your local repository
 
 ## Part I
 
-Re-evaluate your test cases for lastZero and answer the following questions in `submissions/hw3/P1.txt`
+Re-evaluate your test cases for `lastZero `and answer the following questions in `submissions/hw3/P1.txt`
 
-1) Is it possible to organize each of your test case functions into disjoint partitions? If so, describe 
-your partitioning scheme, making note of which test functions correspond to which partition.  If not, come up with a new disjoint partitioning scheme and modify your tests to reflect your new scheme.
+1) Correct the bug in `lastZero` within `Warmup.java`
 
-2) Describe the advantage of having input disjoint test cases?
+2) Is it possible to organize each of your test case functions into disjoint partitions? If so, describe 
+your partitioning scheme, making note of which test functions correspond to which partition.  If not, come up with a new disjoint partitioning scheme and modify your tests to reflect your new scheme.  
+
+3) Describe the advantage of having input disjoint test cases?
 
 
 
@@ -38,8 +40,11 @@ Consider the `CardCollection.discardCard` function. The function should remove t
 Answer the following questions in `submissions/hw3/P2.txt`
 
 1a)  Why don't we need to consider a partition where CardCollection.cards is `null`? 
+
 1b) Do we consider every possible state of `CardCollection.cards` in at least one partition?
+
 1c) Do we consider every possible value of `handPos` in at least one partition?
+
 1d) Is this partitioning complete? In other words, does the partitioning above consider every possible combination of CardCollection.cards and handPos?  
 
 2)  Suppose we have a CardCollection  `cc` consisting of 2, 52-card decks (`Card.newDeck()*2`) and we produce a test like the one below
@@ -67,14 +72,14 @@ that succeeds on ` testCardRemoveFromMiddle(1)` but fails on `testCardRemoveFrom
 
 3)  The current implementation (given in HW2 and unchanged here) fails for at least one of these partitions. Find at least one partition where this fails and identify the bug if you haven't already.  It is recommended you implement tests for each, but you are not required to submit them.
 
-
+4) *(Extra credit)* Describe a new, complete partitioning scheme for his 
 
 ## What to submit
 
 Did you `git add`
 
 * All of the files you copied from `submissions/hw2` to submissions/hw3`
-* Any files you modified above
+* Modified `WarmupTest.java`
 * Written answers from part 1) in `submissions/hw3/P1.txt`
 * Written answers from part 2) in `submissions/hw3/P2.txt`
 
