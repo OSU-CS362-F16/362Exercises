@@ -43,7 +43,7 @@ Answer the following questions and put the answers in `submissions/hw3/P2.txt`
 
 1) Explore your Cobertura site and find a branch (`for`/`if`) that has been 'covered' (a hit count of greater than zero on the left column near the line number) but is highlighted red.  What does this indicate?
 
-2) Why are [Java interfaces](https://docs.oracle.com/javase/tutorial/java/concepts/interface.html) always marked with N/A for coverage?
+2) Why are [Java interfaces](https://docs.oracle.com/javase/tutorial/java/concepts/interface.html) always marked with N/A for coverage? 
 
 3) From a testing and debugging perspective, what is the disadvantage of a functional test like `testBasicFunctionality`?
 
