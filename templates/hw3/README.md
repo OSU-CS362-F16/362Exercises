@@ -18,7 +18,7 @@ Re-evaluate your test cases for `lastZero `and answer the following questions in
 2. Is it possible to organize each of your test case functions into disjoint partitions? If so, describe 
 your partitioning scheme, making note of which test functions correspond to which partition.  If not, come up with a new disjoint partitioning scheme, describe it and modify your `WarmupTest.java` tests to reflect your new scheme.  
 
-3. Describe the advantage of having input disjoint test cases?
+3. Describe the advantage of having input disjoint test cases
 
 
 
