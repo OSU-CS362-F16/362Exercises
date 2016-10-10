@@ -24,7 +24,7 @@ your partitioning scheme, making note of which test functions correspond to whic
 
 ## Part II
 
-Consider the `CardCollection.discardCard` function. The function should remove the element at index `handPos` and leave the relative order of all other cards the same. When working with stateful objects, the behavior of a function is dependent on not only the function interface, but the state of the object itself. Consider the following partitioning 
+Consider the `CardCollection.discardCard` function. The function should remove the element at index `handPos` and leave the relative order of all other cards the same. Input domain partitioning is traditionally applied to stateless functions, but we can generalize it to a stateful object.  When working with stateful objects, the behavior of a function is dependent on not only the function interface, but the state of the object itself.  `discardCard` is dependent on not only the parameter `handPos`, but the state of the deck held in `CardCollection.cards`. Consider the following partitioning 
 
 | Partition | CardCollection.cards | handPos |  
 |---|---|---|
