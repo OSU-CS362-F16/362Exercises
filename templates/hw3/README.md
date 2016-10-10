@@ -49,8 +49,9 @@ Answer the following questions in `submissions/hw3/P2.txt`
     * Do we consider every possible value of `handPos` in at least one partition?
     * Is this partitioning complete? In other words, does the partitioning above consider every possible combination of CardCollection.cards and handPos?  
 
-2.  Suppose we have a CardCollection  `cc` consisting of 2, 52-card decks (`Card.newDeck()*2`) and we produce a test like the one below
+2.  The current implementation (given in HW2 and unchanged here) fails for at least one of these partitions. Find at least one partition where this fails and identify the bug if you haven't already.  It is recommended you implement tests for each, but you are not required to submit them.
 
+3.  Suppose we have a CardCollection  `cc` consisting of 2, 52-card decks (`Card.newDeck()*2`) and we produce a test like the one below
 ~~~
     
     public void testCardRemoveFromMiddle(int i){
@@ -68,11 +69,10 @@ Answer the following questions in `submissions/hw3/P2.txt`
        testCardRemoveFromMiddle(1);
        testCardRemoveFromMiddle(2);
     }
-~~~
-
+~~~ 
 that succeeds on ` testCardRemoveFromMiddle(1)` but fails on `testCardRemoveFromMiddle(2)` - what does this say about partition  b<sub>6</sub>?
 
-3.  The current implementation (given in HW2 and unchanged here) fails for at least one of these partitions. Find at least one partition where this fails and identify the bug if you haven't already.  It is recommended you implement tests for each, but you are not required to submit them.
+
 
 
 
