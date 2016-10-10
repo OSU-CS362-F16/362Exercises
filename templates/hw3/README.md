@@ -37,16 +37,17 @@ Consider the `CardCollection.discardCard` function. The function should remove t
 | b<sub>6</sub>  | Card.newDeck()*2  | 0&lt;x&lt;cards.size()-1 | 
 
 <sub>
-`Card.newDeck()` returns a new 52 card deck, above it indicates a CardCollection with a full deck. `Card.newDeck()*2` indicates a CardCollection containing two full decks
+`Card.newDeck()` returns a new 52 card deck, above it indicates a CardCollection with a full deck. `Card.newDeck()*2` indicates a CardCollection containing two full decks.  See the example below for an example of code that builds a CardCollection from a `Card.newDeck()`
 </sub>
 
 Answer the following questions in `submissions/hw3/P2.txt`
 
-1.
-    a.  Why don't we need to consider a partition where CardCollection.cards is `null`?     
-    b. Do we consider every possible state of `CardCollection.cards` in at least one partition?
-    c. Do we consider every possible value of `handPos` in at least one partition?
-    d. Is this partitioning complete? In other words, does the partitioning above consider every possible combination of CardCollection.cards and handPos?  
+1. 
+
+    * Why don't we need to consider a partition where CardCollection.cards is `null`?         
+    * Do we consider every possible state of `CardCollection.cards` in at least one partition?
+    * Do we consider every possible value of `handPos` in at least one partition?
+    * Is this partitioning complete? In other words, does the partitioning above consider every possible combination of CardCollection.cards and handPos?  
 
 2.  Suppose we have a CardCollection  `cc` consisting of 2, 52-card decks (`Card.newDeck()*2`) and we produce a test like the one below
 
@@ -72,6 +73,8 @@ Answer the following questions in `submissions/hw3/P2.txt`
 that succeeds on ` testCardRemoveFromMiddle(1)` but fails on `testCardRemoveFromMiddle(2)` - what does this say about partition  b<sub>6</sub>?
 
 3.  The current implementation (given in HW2 and unchanged here) fails for at least one of these partitions. Find at least one partition where this fails and identify the bug if you haven't already.  It is recommended you implement tests for each, but you are not required to submit them.
+
+
 
 ## What to submit
 
