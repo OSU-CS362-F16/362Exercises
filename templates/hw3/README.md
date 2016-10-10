@@ -37,7 +37,7 @@ Consider the `CardCollection.discardCard` function. The function should remove t
 | b<sub>6</sub>  | Card.newDeck()*2  | 0&lt;x&lt;cards.size()-1 | 
 
 <sub>
-`Card.newDeck()` returns a new 52 card deck, below it indicates a CardCollection with a full deck. `Card.newDeck()*2` indicates a CardCollection containing two full decks
+`Card.newDeck()` returns a new 52 card deck, above it indicates a CardCollection with a full deck. `Card.newDeck()*2` indicates a CardCollection containing two full decks
 </sub>
 
 Answer the following questions in `submissions/hw3/P2.txt`
