@@ -4,7 +4,7 @@
 ## Preliminaries
 
 * Completion of this assignment is not required, but it may help you on HW3
-* You may turn in the written sections of this assignment for extra credit
+* You may turn in the written sections of Part II for extra credit
 * You'll be making some improvements on your HW2 code this week.  Copy
 the entire contents `submissions/hw2` to `submissions/hw3`.  `git add`
 the copied files and then commit to your local repository
@@ -80,9 +80,11 @@ that succeeds on ` testCardRemoveFromMiddle(1)` but fails on `testCardRemoveFrom
 
 Did you `git add`
 
+<!--
 * All of the files you copied from `submissions/hw2` to submissions/hw3`
 * Modified `WarmupTest.java`
 * Written answers from part 1) in `submissions/hw3/P1.txt`
+-->
 * Written answers from part 2) in `submissions/hw3/P2.txt`
 
 
