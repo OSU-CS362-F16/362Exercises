@@ -91,5 +91,5 @@ Did you `git add`
 ## How to submit
 
 Create a new branch of your repository called `hw3` containing your
-final submission.  This branch must be created before the due date to
+final submission.  This branch must be created and pushed to GitHub `git push origin hw3` before the due date to
 receive credit.
