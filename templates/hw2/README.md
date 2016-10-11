@@ -131,7 +131,7 @@ receive credit.
 
 ## Minimum passing guidelines
 
-The following are guidelines for a basic submission that would receive a passing grade
+The following are guidelines for a basic submission that would receive a passing grade 
 
 *  Creation of the branch `hw2`
 *  At least one test for every public method in `Card` and `CardCollection`
