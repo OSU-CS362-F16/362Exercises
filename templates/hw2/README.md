@@ -131,11 +131,12 @@ receive credit.
 
 ## Minimum passing guidelines
 
-The following are guidelines for a basic submission that would receive a passing grade. Full credit may require significantly more effort.
+The following are guidelines for a basic submission that would receive a passing grade. Full credit may require significantly more effort and an otherwise perfect solution that omits one of these is not a guaranteed failure.
 
 *  Creation of the branch `hw2`
+*  At least one test for each WarmUp method.
 *  At least one test for every public method in `Card` and `CardCollection`
 *  Answers to each of the questions above
-*  Finding the bug itself will be < 10% of your grade, a well-reasoned P2.txt is worth almost as much as than finding the bug itself
+*  Finding the bug itself will be < 10% of your grade. Partial credit for a well-reasoned P2.txt will be given for Part II
 
 
