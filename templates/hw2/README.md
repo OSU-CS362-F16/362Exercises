@@ -131,7 +131,7 @@ receive credit.
 
 ## Minimum passing guidelines
 
-The following are guidelines for a basic submission that would receive a passing grade. Full credit may require significantly more effort and an otherwise perfect solution that omits one of these is not a guaranteed failure.
+The following are guidelines for a basic submission that would receive a passing grade. Full credit may require significantly more effort and an otherwise perfect solution that omits one of these is not necessarily a guaranteed failure.
 
 *  Creation of the branch `hw2`
 *  At least one test for each WarmUp method.
