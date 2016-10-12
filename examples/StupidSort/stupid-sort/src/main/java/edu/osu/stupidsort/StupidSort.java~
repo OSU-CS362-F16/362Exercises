@@ -1,8 +1,0 @@
-package edu.osu.stupidsort;
-
-public class StupidSort{
-    private static void stupidSortAux(List<Integer> li,int low, int hi){
-	int mid = low + hi;
-	
-    }
-}
