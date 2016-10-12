@@ -4,7 +4,7 @@ import java.util.*;
 
 public class StupidSort{
     public static void stupidSort(List<Integer> li){
-	/* stupidSort sorts a list of integers 
+	/* stupidSort sorts a list of integers (ascending)
 	 * in the silliest way possible
 	 */
 	stupidSortAux(li,0,li.size());
