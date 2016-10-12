@@ -128,3 +128,15 @@ Be sure to `git commit` and `git push origin master`
 
 When you've done the above, create a new branch of your repository called `hw2`. `submissions/hw2` in branch `hw2` should contain all files from `templates/hw2` in addition to the files you added.   This branch must be created and pushed to Github before the due date to
 receive credit.
+
+## Minimum passing guidelines
+
+The following are guidelines for a basic submission that would receive a passing grade. Full credit may require significantly more effort and an otherwise perfect solution that omits one of these is not necessarily a guaranteed failure.
+
+*  Creation of the branch `hw2`
+*  At least one test for each WarmUp method.
+*  At least one test for every public method in `Card` and `CardCollection`
+*  Answers to each of the questions above
+*  Finding the bug itself will be < 10% of your grade. Partial credit for a well-reasoned P2.txt will be given for Part II
+
+

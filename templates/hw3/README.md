@@ -56,12 +56,11 @@ Answer the following questions in `submissions/hw3/P2.txt`
     
     public void testCardRemoveFromMiddle(int i){
         CardCollection c = new CardCollection();
-        ArrayList<Card> comparison = Card.newDeck()
-        c.add(Card.newDeck());
-        c.add(Card.newDeck());
+        ArrayList<Card> comparison = Card.newDeck(); // Keep track of the ordering of a new deck
+        c.add(Card.newDeck()); // Add a new deck 
+        c.add(Card.newDeck()); // Add another new deck 
         
-        int i = 1;
-        c.discardCard(i);  // remove last card
+        c.discardCard(i);  // remove ith card
         assertEquals(comparison.get(0),c.getCards().get(0)); // first element shouldn't change
     }
   
