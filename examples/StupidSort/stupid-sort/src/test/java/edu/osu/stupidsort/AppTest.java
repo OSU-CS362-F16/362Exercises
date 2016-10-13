@@ -27,7 +27,7 @@ public class AppTest  {
 
     @Test
     public void stupidSortSample() {
-	List<Integer> li = identityPermutation(100);
+	List<Integer> li = identityPermutation(10);
 
 	// get a random shuffling of the identity permutation
 	Collections.shuffle(li); 
