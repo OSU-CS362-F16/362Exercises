@@ -31,9 +31,9 @@ Run the following command
 
 `mvn cobertura:cobertura`
 
-This should generate a set of files in the `submissions/hw4/target/site` folder including an `index.html` file.  Open this file with a web browser.  If you are SSH'd into a server without X11 (user interface) forwarding, you may want to use the `deploy` script in the the `submissions/hw3` folder to copy the site to your [EECS webspace](http://it.engineering.oregonstate.edu/where-do-i-put-my-personal-webpages).
+This should generate a set of files in the `submissions/hw4/target/site` folder including an `index.html` file.  Open this file with a web browser.  If you are SSH'd into a server without X11 (user interface) forwarding, you may want to use the `deploy` script in the the `submissions/hw3` folder to copy the site to your [EECS webspace](http://it.engineering.oregonstate.edu/where-do-i-put-my-personal-webpages).  
 
-Your coverage report should be similar to this:
+Your coverage report should be similar to this (link to [live page here](http://web.engr.oregonstate.edu/~baldwdav/report/) ):
 ![](https://snag.gy/C3He0V.jpg)
 
 The `testBasicFunctionality` test is what's called a *functional test* - it tests a run of the entire program rather than the operation of individual components.  With a single functional test, we achieve 71% branch coverage.  In fact, if we designed this case more carefully, we might be able to get into the 80-100% range
@@ -102,6 +102,7 @@ Make sure you've uncommented any tests in your new class before submitting, but 
 
 The following are guidelines for a basic submission that would receive a passing grade. Full credit may require significantly more effort and an otherwise perfect solution that omits one of these is not necessarily a guaranteed failure.
 
+*  A test suite that compiles with `mvn compile`
 *  Creation of the branch `hw4`
 *  At least 60% coverage on your test suite excluding SimpleBlackjackTest
 *  Answers to the written questions
