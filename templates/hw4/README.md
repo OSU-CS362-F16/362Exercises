@@ -38,7 +38,7 @@ Your coverage report should be similar to this (link to [live page here](http://
 
 The `testBasicFunctionality` test is what's called a *functional test* - it tests a run of the entire program rather than the operation of individual components.  With a single functional test, we achieve 71% branch coverage.  In fact, if we designed this case more carefully, we might be able to get into the 80-100% range
 
-Answer the following questions and put the answers in `submissions/hw3/P2.txt`
+Answer the following questions and put the answers in `submissions/hw4/P2.txt`
 
 1) Explore your Cobertura site and find a branch (`for`/`if`) that has been 'covered' (a hit count of greater than zero on the left column near the line number) but is highlighted red.  What does this indicate?
 
@@ -62,11 +62,11 @@ Write unit tests for all of the classes excluding `SimpleBlackjack` (i.e., do no
 
 **BEFORE ATTEMPTING THIS SECTION: Comment out all of the functions within `SimpleBlackjackTest` and uncomment your code from your test suite! Your tests must achieve the target WITHOUT using the SimpleBlackjack class**
 
-Now measure the coverage of your test suit. If you have less than 75% line coverage, fill in the gaps and until you achieve it. Take a screenshot of your coverage and submit it as `submissions/hw3/P3.<jpg/pdf>`. 
+Now measure the coverage of your test suit. If you have less than 75% line coverage, fill in the gaps and until you achieve it. Take a screenshot of your coverage and submit it as `submissions/hw4/P3.<jpg/pdf>`. 
 
 ### Part 4)
 
-Answer the following questions and put the answers in `submissions/hw3/P4.txt`
+Answer the following questions and put the answers in `submissions/hw4/P4.txt`
 
 1) True or False: A good test suite has good coverage
 
