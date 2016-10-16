@@ -1,26 +1,12 @@
 package edu.osu.blackjack;
 
 
+import static org.junit.Assert.*;
+import org.junit.Test;
 import java.util.Random;
 
-
-
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
-
-public class SimpleBlackjackTest extends TestCase{
-	
-    
-    public static Test suite()
-    {
-	return new TestSuite( SimpleBlackjackTest.class );
-    }
-
-    public void testBasicFunctionality2(){
-	Dealer dealer = new Dealer();
-	dealer.shuffleDeck();
-    }    
+public class SimpleBlackjackTest {
+    @Test
     public void testBasicFunctionality(){
 	// Does it run without errors for a simple case?
 	Dealer dealer = new Dealer();

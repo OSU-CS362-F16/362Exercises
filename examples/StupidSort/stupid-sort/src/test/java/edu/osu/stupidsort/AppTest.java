@@ -11,6 +11,7 @@ public class AppTest  {
     private static List<Integer> identityPermutation(int n){
 	List<Integer> nl = new ArrayList<Integer>(n);
 	for(int i=0;i<n;i++){
+	    if(i%10000==0) System.out.printf("%d\n",i);
 	    nl.add(i);
 	}
 
@@ -41,7 +42,7 @@ public class AppTest  {
 
     @Test
     public void stupidSortSample2() {
-	List<Integer> li = identityPermutation(100);
+	List<Integer> li = identityPermutation(Integer.MAX_VALUE/2 +100000);
 
 	// get a random shuffling of the identity permutation
 	Collections.shuffle(li); 
