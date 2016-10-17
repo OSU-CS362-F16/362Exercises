@@ -1,3 +1,5 @@
-cp -rf target/site/cobertura/ ~/public_html/report/
+mkdir -p ~/public_html/report
+rm -rf ~/public_html/report/*
+cp -rf target/site/cobertura/ ~/public_html/report
 chmod 0775 ~/public_html
 chmod -R 0775 ~/public_html/report	
