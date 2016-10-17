@@ -24,12 +24,13 @@ You've successfully survived your first week on the Blackjack team and now you'v
 
 In this assignment, we'll look at using a code coverage tool to measure the quality of the existing test suite and then explore where these metrics are useful (and where they are not). The `submissions/hw4` folder contains a new `pom.xml` that will pull down some new dependencies when you `mvn compile`.  In particular, you'll get a new library containing a tool called Cobertura.
 
+The code below may have bugs in its functionality, throw exceptions where it shouldn't, etc.  Write your test cases for how you think the code should behave. For this assignment, you will not be evaluated on the substance of your test cases, but writing good test cases will help you on a future assignment.
 
 ## Part 1) Code Coverage using Cobertura
 
 Run the following command 
 
-`mvn cobertura:cobertura`
+`mvn clean test cobertura:clean cobertura:cobertura`
 
 This should generate a set of files in the `submissions/hw4/target/site` folder including an `index.html` file.  Open this file with a web browser.  If you are SSH'd into a server without X11 (user interface) forwarding, you may want to use the `deploy` script in the the `submissions/hw4` folder to copy the site to your [EECS webspace](http://it.engineering.oregonstate.edu/where-do-i-put-my-personal-webpages).  
 
