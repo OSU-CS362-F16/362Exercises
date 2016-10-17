@@ -94,9 +94,9 @@ receive credit, the latest commit prior to the deadline will be graded.
 Make sure you've uncommented any tests in your new class before submitting, but leave the `SimpleBlackjackTest` commented out. Did you `git add`....
 
 * At least one test suite class in `submissions/hw4/src/test/java/edu/osu/blackjack`
-* `submissions/hw3/P2.txt`
-* `submissions/hw3/P3.<jpg/pdf>`
-* `submissions/hw3/P4.txt`
+* `submissions/hw4/P2.txt`
+* `submissions/hw4/P3.<jpg/pdf>`
+* `submissions/hw4/P4.txt`
 
 
 ## Minimum passing guidelines
