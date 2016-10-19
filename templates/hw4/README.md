@@ -61,7 +61,7 @@ Write unit tests for all of the classes excluding `SimpleBlackjack` (i.e., do no
 
 ### Part 3) 
 
-**BEFORE ATTEMPTING THIS SECTION: Comment out all of the functions within `SimpleBlackjackTest` and uncomment your code from your test suite! Your tests must achieve the target WITHOUT using the SimpleBlackjack class**
+**BEFORE ATTEMPTING THIS SECTION: Comment out all of the functions within `SimpleBlackjackTest` and `SimpleBlackjack` and uncomment your code from your test suite! Your tests must achieve the target WITHOUT using the SimpleBlackjack class, but you don't need to cover that class in the percentage calculation below**
 
 Now measure the coverage of your test suit. If you have less than 75% line coverage, fill in the gaps and until you achieve it. Take a screenshot of your coverage and submit it as `submissions/hw4/P3.<jpg/pdf>`. 
 
