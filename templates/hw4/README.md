@@ -61,7 +61,7 @@ Write unit tests for all of the classes excluding `SimpleBlackjack` (i.e., do no
 
 ### Part 3) 
 
-**BEFORE ATTEMPTING THIS SECTION: Comment out all of the functions within `SimpleBlackjackTest` and uncomment your code from your test suite! Your tests must achieve the target WITHOUT using the SimpleBlackjack class**
+**BEFORE ATTEMPTING THIS SECTION: Comment out all of the functions within `SimpleBlackjackTest` and `SimpleBlackjack` and uncomment your code from your test suite! Your tests must achieve the target WITHOUT using the SimpleBlackjack class, but you don't need to cover that class in the percentage calculation below**
 
 Now measure the coverage of your test suit. If you have less than 75% line coverage, fill in the gaps and until you achieve it. Take a screenshot of your coverage and submit it as `submissions/hw4/P3.<jpg/pdf>`. 
 
@@ -94,9 +94,9 @@ receive credit, the latest commit prior to the deadline will be graded.
 Make sure you've uncommented any tests in your new class before submitting, but leave the `SimpleBlackjackTest` commented out. Did you `git add`....
 
 * At least one test suite class in `submissions/hw4/src/test/java/edu/osu/blackjack`
-* `submissions/hw3/P2.txt`
-* `submissions/hw3/P3.<jpg/pdf>`
-* `submissions/hw3/P4.txt`
+* `submissions/hw4/P2.txt`
+* `submissions/hw4/P3.<jpg/pdf>`
+* `submissions/hw4/P4.txt`
 
 
 ## Minimum passing guidelines
