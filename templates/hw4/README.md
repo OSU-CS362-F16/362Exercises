@@ -30,7 +30,11 @@ The code below may have bugs in its functionality, throw exceptions where it sho
 
 Run the following command 
 
-`mvn clean test cobertura:clean cobertura:cobertura`
+`mvn clean test`
+
+followed by 
+
+`mvn cobertura:clean cobertura:cobertura`
 
 This should generate a set of files in the `submissions/hw4/target/site` folder including an `index.html` file.  Open this file with a web browser.  If you are SSH'd into a server without X11 (user interface) forwarding, you may want to use the `deploy` script in the the `submissions/hw4` folder to copy the site to your [EECS webspace](http://it.engineering.oregonstate.edu/where-do-i-put-my-personal-webpages).  
 

@@ -1,4 +1,4 @@
-# Assignment 
+# Assignment 5
 
 ## Preliminaries
 
@@ -10,14 +10,14 @@
     git merge upstream/master -m "Sync" # merge new files
 ~~~
 * Remember to submit under a new branch called hw5
-* You'll be making some improvements on your HW2 code this week.  Copy
-the entire contents `submissions/hw4` to `submissions/hw5`.  `git add`
+* You'll be making some improvements on your HW4 code this week.  Copy
+the entire contents `submissions/hw4` to `submissions/hw5` **EXCLUDING pom.xml**.  `git add`
 the copied files and then commit to your local repository
 
 
 ## Useful links
 
-[Unit tests with Mockito - Tutorial](http://www.vogella.com/tutorials/Mockito/article.html)
+[Unit tests with Mockito - Tutorial (Sections 1-4)](http://www.vogella.com/tutorials/Mockito/article.html)
 
 [Mockito Reference](http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html)
 
@@ -25,9 +25,9 @@ the copied files and then commit to your local repository
 ## Overview
 
 During the course of evaluating the test suite of the Blackjack
-classes, you have found several bugs and have been tasked with fixing
+classes, you have found several bugs and have been tasked with documenting
 them.  The original author of the code left little detail as to how
-they developed the code, so you team has decided to use [the following
+they developed the code, so your team has decided to use [the following
 document]
 (https://en.wikipedia.org/wiki/Blackjack#Rules_of_play_at_casinos) as
 a reference to get the code working.
@@ -48,13 +48,15 @@ Mocking solves this problem.  Instead of providing Player and Dealer
 implementations, we'll use a tool called Mockito to provide mock
 objects for this class.  An example is provided in `hw5/src/test/java/edu/osu/blackjack/MockExample.java`
 
-Write at least 5 mocking tests in the class of your choice 
+Write at least 5 mock tests for `SimpleBlackjack` in the test class of your choice 
 
-## Part 1) Writing a bug report
+## Part 2) Writing a bug report
 
 Follow the guidelines from the readings to find and write reports for
-three bugs in the Blackjack game.  At least one bug must be from the
-SimpleBlackjack class. Submit your reports as
+three bugs in the Blackjack game. Your bug reports should be based on the functionality needed to implement the game as described in the Blackjack reference document. At least one bug must be from the
+SimpleBlackjack class. 
+
+Submit your reports as
 `submissions/hw5/report1.txt`, `submissions/hw5/report2.txt` and
 `submissions/hw5/report3.txt`
 
@@ -77,7 +79,7 @@ receive credit, the latest commit prior to the deadline will be graded.
 
 The following are guidelines for a basic submission that would receive a passing grade. Full credit may require significantly more effort and an otherwise perfect solution that omits one of these is not necessarily a guaranteed failure.
 
-
+*  Code that compiles and runs using `mvn compile test`
 *  Creation of the branch `hw5`
 *  At least 3 bug reports 
 *  At least 5 mock tests
