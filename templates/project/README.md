@@ -28,11 +28,20 @@ credit for your project proposal, but your team may be merged with
 other teams, split, etc. and you are responsible for choosing a single
 proposal for the team.
 
-The project proposal should be submitted as link to a team Github
-repository (create this yourself) containing a `README.md` containing
-the following information
+Each team should create a new Github repository using the following steps. 
+
+***Form a team before attempting this process - the process cannot be repeated***
+
+1) One person from each team should visit the (https://classroom.github.com/group-assignment-invitations/319b5fd01dc933c2179dda2a6608999f) [following Github link] and create a new team using their ONID name
+2) All team members should follow the link and join the team created by the first member.
+
+If all goes well, you should end up with a new repository accessible by all team members.  If you make a mistake, you'll have to manually add each member to the team via Github.
+
+The project proposal should be submitted in Canvas as a link to your repository. The repository should consist of the a `README.md` containing the following information and code from the project. Guidelines:
 
 * **All members' names at the top of the file**
+
+* For option a) - add the files provided on Canvas to your repository
 
 * For option b) - please include a link to the project's homepage (if
   available) and add a copy of the code to be tested to your repository
