@@ -7,7 +7,7 @@ taught throughout the course to a codebase of your choice.  You will
 be testing one of the following:
 
 <ol type="a">
-  <li>A buggy version of the <a href="http://commons.apache.org/proper/commons-validator/apidocs/org/apache/commons/validator/UrlValidator.html">Apache URLValidator</a></li>
+  <li>A buggy version of the <a href="http://commons.apache.org/proper/commons-validator/apidocs/org/apache/commons/validator/UrlValidator.html">Apache URLValidator</a>. The source can be found <a href="http://web.engr.oregonstate.edu/~baldwdav/BuggyURLValidator.zip">here</a></li>
   <li>An open-source project of your choice (including code/projects
 written by at least one team member) with at least 1000 lines of code.</li>
   
