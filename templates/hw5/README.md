@@ -48,7 +48,7 @@ Mocking solves this problem.  Instead of providing Player and Dealer
 implementations, we'll use a tool called Mockito to provide mock
 objects for this class.  An example is provided in `hw5/src/test/java/edu/osu/blackjack/MockExample.java`
 
-Write at least 5 mocking tests in the class of your choice 
+Write at least 5 mock tests for `SimpleBlackjack` in the test class of your choice 
 
 ## Part 1) Writing a bug report
 
