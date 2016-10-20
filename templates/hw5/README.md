@@ -17,7 +17,7 @@ the copied files and then commit to your local repository
 
 ## Useful links
 
-[Unit tests with Mockito - Tutorial](http://www.vogella.com/tutorials/Mockito/article.html)
+[Unit tests with Mockito - Tutorial (Sections 1-4)](http://www.vogella.com/tutorials/Mockito/article.html)
 
 [Mockito Reference](http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html)
 
