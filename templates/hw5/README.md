@@ -53,7 +53,7 @@ Write at least 5 mock tests for `SimpleBlackjack` in the test class of your choi
 ## Part 2) Writing a bug report
 
 Follow the guidelines from the readings to find and write reports for
-three bugs in the Blackjack game.  At least one bug must be from the
+three bugs in the Blackjack game. Your bug reports should be based on the functionality needed to implement the game as described in the Blackjack reference document. At least one bug must be from the
 SimpleBlackjack class. 
 
 Submit your reports as
