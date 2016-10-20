@@ -25,7 +25,7 @@ the copied files and then commit to your local repository
 ## Overview
 
 During the course of evaluating the test suite of the Blackjack
-classes, you have found several bugs and have been tasked with fixing
+classes, you have found several bugs and have been tasked with documenting
 them.  The original author of the code left little detail as to how
 they developed the code, so your team has decided to use [the following
 document]
