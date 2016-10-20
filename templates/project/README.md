@@ -67,7 +67,7 @@ than 3 (750 words).
 ### Project Report Part II
 
 Implement the improvements described above. Submit your code and write
-a test report as a text or PDF file called `REPORT.(pdf/md)`. Describing your experiences. Guidelines:
+a test report as a text or PDF file called `REPORT.(pdf/md)` describing your experiences. Guidelines:
 
 * Your code must include a `README.md` file describing how to run your
  code and tests
@@ -77,6 +77,8 @@ a test report as a text or PDF file called `REPORT.(pdf/md)`. Describing your ex
 * Bug reports for any issues you find in the code
 
 * An evaluation of the new tool you used. Include a descripton of what the tool added to your test suites and a comparision to the techniques covered in the exercises.
+
+
 
 Your test report should be at least 3 pages (750 words) but no more
 than 6 (1500 words)
