@@ -27,7 +27,7 @@ the copied files and then commit to your local repository
 During the course of evaluating the test suite of the Blackjack
 classes, you have found several bugs and have been tasked with fixing
 them.  The original author of the code left little detail as to how
-they developed the code, so you team has decided to use [the following
+they developed the code, so your team has decided to use [the following
 document]
 (https://en.wikipedia.org/wiki/Blackjack#Rules_of_play_at_casinos) as
 a reference to get the code working.
@@ -54,7 +54,9 @@ Write at least 5 mock tests for `SimpleBlackjack` in the test class of your choi
 
 Follow the guidelines from the readings to find and write reports for
 three bugs in the Blackjack game.  At least one bug must be from the
-SimpleBlackjack class. Submit your reports as
+SimpleBlackjack class. 
+
+Submit your reports as
 `submissions/hw5/report1.txt`, `submissions/hw5/report2.txt` and
 `submissions/hw5/report3.txt`
 
