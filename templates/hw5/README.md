@@ -50,7 +50,7 @@ objects for this class.  An example is provided in `hw5/src/test/java/edu/osu/bl
 
 Write at least 5 mock tests for `SimpleBlackjack` in the test class of your choice 
 
-## Part 1) Writing a bug report
+## Part 2) Writing a bug report
 
 Follow the guidelines from the readings to find and write reports for
 three bugs in the Blackjack game.  At least one bug must be from the
