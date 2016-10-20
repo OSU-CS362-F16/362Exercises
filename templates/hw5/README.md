@@ -1,0 +1,88 @@
+# Assignment 
+
+## Preliminaries
+
+* Get the latest files from the instructor's repository
+~~~
+    git remote add upstream "https://github.com/OSU-CS362-F16/362Exercises"
+    git checkout master              # make sure we're on the master branch
+    git fetch upstream             # pull any information about changes in upstream
+    git merge upstream/master -m "Sync" # merge new files
+~~~
+* Remember to submit under a new branch called hw5
+* You'll be making some improvements on your HW2 code this week.  Copy
+the entire contents `submissions/hw4` to `submissions/hw5`.  `git add`
+the copied files and then commit to your local repository
+
+
+## Useful links
+
+[Unit tests with Mockito - Tutorial](http://www.vogella.com/tutorials/Mockito/article.html)
+
+[Mockito Reference](http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html)
+
+[Blackjack Rules Reference] (https://en.wikipedia.org/wiki/Blackjack#Rules_of_play_at_casinos)
+## Overview
+
+During the course of evaluating the test suite of the Blackjack
+classes, you have found several bugs and have been tasked with fixing
+them.  The original author of the code left little detail as to how
+they developed the code, so you team has decided to use [the following
+document]
+(https://en.wikipedia.org/wiki/Blackjack#Rules_of_play_at_casinos) as
+a reference to get the code working.
+
+
+## Part 1) Mocking 
+
+The `SimpleBlackjack` class implements a single round of Blackjack.
+Because this class is dependent on the rest of the code base, it is
+difficult to test this class in isolation.  It is not possible to
+execute this class without providing an implementation of the Dealer
+and at least one player.  Much of the logic of the game is centered in
+this class - dealing, betting, etc. - and it may be difficult to
+distinguish between errors in more granular classes (like the ones you
+tested last week) and errors in SimpleBlack itself.
+
+Mocking solves this problem.  Instead of providing Player and Dealer
+implementations, we'll use a tool called Mockito to provide mock
+objects for this class.  An example is provided in `hw5/src/test/java/edu/osu/blackjack/MockExample.java`
+
+Write at least 5 mocking tests in the class of your choice 
+
+## Part 1) Writing a bug report
+
+Follow the guidelines from the readings to find and write reports for
+three bugs in the Blackjack game.  At least one bug must be from the
+SimpleBlackjack class. Submit your reports as
+`submissions/hw5/report1.txt`, `submissions/hw5/report2.txt` and
+`submissions/hw5/report3.txt`
+
+
+## How to submit
+
+Create a new branch of your repository called `hw5` containing your
+final submission.  This branch must be created before the due date to
+receive credit, the latest commit prior to the deadline will be graded.
+
+## Submission checklist 
+
+* `submissions/hw5/report1.txt`
+* `submissions/hw5/report2.txt`
+* `submissions/hw5/report3.txt`
+*  At least one test class utilizing Mockito tests
+
+
+## Minimum passing guidelines
+
+The following are guidelines for a basic submission that would receive a passing grade. Full credit may require significantly more effort and an otherwise perfect solution that omits one of these is not necessarily a guaranteed failure.
+
+
+*  Creation of the branch `hw5`
+*  At least 3 bug reports 
+*  At least 5 mock tests
+
+
+
+
+
