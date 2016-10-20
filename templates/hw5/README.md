@@ -11,7 +11,7 @@
 ~~~
 * Remember to submit under a new branch called hw5
 * You'll be making some improvements on your HW2 code this week.  Copy
-the entire contents `submissions/hw4` to `submissions/hw5`.  `git add`
+the entire contents `submissions/hw4` to `submissions/hw5` **EXCLUDING pom.xml**.  `git add`
 the copied files and then commit to your local repository
 
 
