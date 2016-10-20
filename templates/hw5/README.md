@@ -79,7 +79,7 @@ receive credit, the latest commit prior to the deadline will be graded.
 
 The following are guidelines for a basic submission that would receive a passing grade. Full credit may require significantly more effort and an otherwise perfect solution that omits one of these is not necessarily a guaranteed failure.
 
-
+*  Code that compiles and runs using `mvn compile test`
 *  Creation of the branch `hw5`
 *  At least 3 bug reports 
 *  At least 5 mock tests
