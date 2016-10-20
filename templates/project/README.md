@@ -6,7 +6,7 @@ The class project will require you to apply the tools and techniques
 taught throughout the course to a codebase of your choice.  You will
 be testing one of the following:
 
-a) A buggy version of the Apache URLValidator
+a) A buggy version of the [Apache URLValidator](http://commons.apache.org/proper/commons-validator/apidocs/org/apache/commons/validator/UrlValidator.html)
 
 b) An open-source project of your choice (including code/projects
 written by at least one team member) with at least 1000 lines of code. 
@@ -32,7 +32,7 @@ Each team should create a new Github repository using the following steps.
 
 ***Form a team before attempting this process - the process cannot be repeated***
 
-1) One person from each team should visit the (following Github link)[https://classroom.github.com/group-assignment-invitations/319b5fd01dc933c2179dda2a6608999f]  and create a new team using their ONID name
+1) One person from each team should visit the [following Github link](https://classroom.github.com/group-assignment-invitations/319b5fd01dc933c2179dda2a6608999f) and create a new team using their ONID name
 2) All team members should follow the link and join the team created by the first member.
 
 If all goes well, you should end up with a new repository accessible by all team members.  If you make a mistake, you'll have to manually add each member to the team or repository via Github.
