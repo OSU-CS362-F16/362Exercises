@@ -58,7 +58,7 @@ three bugs in the Blackjack game. In addition to those guidelines, be sure to in
 * ... a detailed description of the issue
 * ... how the issue affects the functinnality of the game
 * ... a snippet of a test case that fails
-* ... justification for why that test case shuold pass
+* ... justification for why that test case should pass
 
 Your bug reports should be based on the functionality needed to implement the game as described in the Blackjack reference document. At least one bug must be from the SimpleBlackjack class. 
 
