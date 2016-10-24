@@ -89,6 +89,7 @@ Did you `git add`
 * `submissions/hw5/src/test/.../VerifiedTest.java`
 *  At least one test class utilizing Mockito tests
 
+Please also submit a link to your new branch via Canvas in the Assignments section.
 
 ## Minimum passing guidelines
 
