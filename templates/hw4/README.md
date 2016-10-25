@@ -102,6 +102,7 @@ Make sure you've uncommented any tests in your new class before submitting, but 
 * `submissions/hw4/P3.<jpg/pdf>`
 * `submissions/hw4/P4.txt`
 
+Please also submit a link to your new branch via Canvas in the Assignments section.
 
 ## Minimum passing guidelines
 

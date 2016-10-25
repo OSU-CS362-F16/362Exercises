@@ -53,13 +53,25 @@ Write at least 5 mock tests for `SimpleBlackjack` in the test class of your choi
 ## Part 2) Writing a bug report
 
 Follow the guidelines from the readings to find and write reports for
-three bugs in the Blackjack game. Your bug reports should be based on the functionality needed to implement the game as described in the Blackjack reference document. At least one bug must be from the
-SimpleBlackjack class. 
+three bugs in the Blackjack game. In addition to those guidelines, be sure to include
+
+* ... a detailed description of the issue
+* ... how the issue affects the functinnality of the game
+* ... a snippet of a test case that fails
+* ... justification for why that test case should pass
+
+Your bug reports should be based on the functionality needed to implement the game as described in the Blackjack reference document. At least one bug must be from the SimpleBlackjack class. 
 
 Submit your reports as
 `submissions/hw5/report1.txt`, `submissions/hw5/report2.txt` and
 `submissions/hw5/report3.txt`
 
+
+## Part 3) Making the fixes
+
+Alter the Java source files in `submissions/hw5/src/java/...` to correct the bugs in each of your reports. Modify each of your bug reports to include a code snippet of the change you made and a description of the change that you might put in a Git commit message.
+
+As a final step, move any test cases used in the snippets to a new class called `VerifiedTest` in `submissions/hw5/src/test/.../VerifiedTest.java`.  ***All tests in your snippets must be added to `VerifiedTest`.  ALL tests in `VerifiedTest` must pass without error or failure***
 
 ## How to submit
 
@@ -69,11 +81,15 @@ receive credit, the latest commit prior to the deadline will be graded.
 
 ## Submission checklist 
 
+Did you `git add`
+
 * `submissions/hw5/report1.txt`
 * `submissions/hw5/report2.txt`
 * `submissions/hw5/report3.txt`
+* `submissions/hw5/src/test/.../VerifiedTest.java`
 *  At least one test class utilizing Mockito tests
 
+Please also submit a link to your new branch via Canvas in the Assignments section.
 
 ## Minimum passing guidelines
 
@@ -81,7 +97,7 @@ The following are guidelines for a basic submission that would receive a passing
 
 *  Code that compiles and runs using `mvn compile test`
 *  Creation of the branch `hw5`
-*  At least 3 bug reports 
+*  At least 3 bug reports with test and modification snippets
 *  At least 5 mock tests
 
 
