@@ -1,0 +1,16 @@
+package edu.osu.faketweets;
+
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+import java.util.Random;
+import static org.mockito.Mockito.*;
+
+
+public class TweetServiceTest{
+    @Test
+    public void getLatestTweetsTest(){
+
+
+    }
+}

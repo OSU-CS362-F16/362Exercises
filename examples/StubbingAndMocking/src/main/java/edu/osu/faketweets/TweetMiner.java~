@@ -1,0 +1,9 @@
+package edu.osu.faketweets;
+
+public class TweetMiner{
+    TweetService service;
+
+    public TweetMiner(TweetService s){
+	service = s;
+    }
+}

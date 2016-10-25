@@ -1,0 +1,7 @@
+package edu.osu.faketweets;
+
+public class TweetService implements TweetService{
+    String getLatestTweetByUser(String usernameb);
+    String[] getLatestTweets(int count);
+    String[] getLatestTweetsByTopic(int count);
+}
