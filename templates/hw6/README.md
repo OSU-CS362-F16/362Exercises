@@ -22,9 +22,8 @@
 
 ## Useful links
 
-
-Java `Collections` reference: https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html
-http://blog.regehr.org/archives/856
+[Java `Collections` reference](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html
+http://blog.regehr.org/archives/856)
 
 ### Useful Java library routines
 
@@ -40,7 +39,7 @@ r.nextInt();             // generate a random integer
 
 Writing tests is time consuming and it is impossible to anticipate the
 behavior of every possible input.  Random testing allows testers to
-automatically generate test cases 
+automatically generate test cases and check the result using an "Oracle".
 
 ## Part 1) Random testing a sort implementation
 
