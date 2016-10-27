@@ -6,17 +6,13 @@ import java.util.*;
 
 public class SortTest  {
 
-    static Random r = new Random();
+
 
     private static List<Integer> randomIntegerArray(int n){
-	List<Integer> nl = new ArrayList<Integer>(n);
-	for(int i=0;i<n;i++){
-	    nl.add(r.nextInt());
-	}
-
-	return nl;
+	return null;
     }
 
+    /*
     @Test // This test is an example template using an oracle
     public void randomTestExample() {
 	int n_runs = 10;
@@ -36,7 +32,7 @@ public class SortTest  {
 	}
     }
     
-
+    */
     @Test
     public void randomTestOracle() {    
 
