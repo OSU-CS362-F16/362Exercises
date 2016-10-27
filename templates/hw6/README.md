@@ -9,7 +9,7 @@
     git fetch upstream             # pull any information about changes in upstream
     git merge upstream/master -m "Sync" # merge new files
 ~~~
-* Remember to submit under a new branch called hw5
+* Remember to submit under a new branch called hw6
 * You'll be making some improvements on your HW5 code this week.  Copy
 
 1. `submissions/hw5/src/main/edu/osu/blackjack/*` to `submissions/hw6/src/main/edu/osu/blackjack/*`.  
@@ -22,9 +22,8 @@
 
 ## Useful links
 
-
-Java `Collections` reference: https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html
-http://blog.regehr.org/archives/856
+[Java `Collections` reference](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html
+http://blog.regehr.org/archives/856)
 
 ### Useful Java library routines
 
@@ -40,7 +39,7 @@ r.nextInt();             // generate a random integer
 
 Writing tests is time consuming and it is impossible to anticipate the
 behavior of every possible input.  Random testing allows testers to
-automatically generate test cases 
+automatically generate test cases and check the result using an "Oracle".
 
 ## Part 1) Random testing a sort implementation
 
@@ -52,7 +51,7 @@ simplest way to implement a random testing oracle is via comparison.
 1. Using the Java Collections library or your own sorting routine,
 complete the `isSorted` method within
 `src/test/java/edu/osu/sort/SortOracle.java`.  This method should
-compare sort the `original` parameter with the known-good sorting
+sort the `original` parameter with the known-good sorting
 implementation and then compare the result to `sorted`
 
 2. Complete the method `SortTest.randomTestOracle` in the `SortTest`
@@ -92,10 +91,13 @@ For this section, you are to write a test class in
 * 1-4 players each with a random `currentWallet` and an empty `currentHand`
 
 You are free to modify the source code of the Blackjack classes as you
-wish, but this is not required. 
+wish. If you make assumpetions or constraints on the creation of the random 
+test cases, document them in the comments of your test class.
 
 ## How to submit
 
+
+Create a new branch of your repository called hw5 containing your final submission. This branch must be created before the due date to receive credit, the latest commit prior to the deadline will be graded.
 ## Submission checklist 
 
 Did you `git add`
