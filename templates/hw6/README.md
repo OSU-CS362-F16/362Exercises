@@ -97,7 +97,7 @@ test cases, document them in the comments of your test class.
 ## How to submit
 
 
-Create a new branch of your repository called hw5 containing your final submission. This branch must be created before the due date to receive credit, the latest commit prior to the deadline will be graded.
+Create a new branch of your repository called hw6 containing your final submission. This branch must be created before the due date to receive credit, the latest commit prior to the deadline will be graded.
 ## Submission checklist 
 
 Did you `git add`
