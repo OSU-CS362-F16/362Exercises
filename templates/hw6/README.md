@@ -51,7 +51,7 @@ simplest way to implement a random testing oracle is via comparison.
 1. Using the Java Collections library or your own sorting routine,
 complete the `isSorted` method within
 `src/test/java/edu/osu/sort/SortOracle.java`.  This method should
-compare sort the `original` parameter with the known-good sorting
+sort the `original` parameter with the known-good sorting
 implementation and then compare the result to `sorted`
 
 2. Complete the method `SortTest.randomTestOracle` in the `SortTest`
