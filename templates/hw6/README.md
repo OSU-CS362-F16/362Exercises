@@ -9,7 +9,7 @@
     git fetch upstream             # pull any information about changes in upstream
     git merge upstream/master -m "Sync" # merge new files
 ~~~
-* Remember to submit under a new branch called hw5
+* Remember to submit under a new branch called hw6
 * You'll be making some improvements on your HW5 code this week.  Copy
 
 1. `submissions/hw5/src/main/edu/osu/blackjack/*` to `submissions/hw6/src/main/edu/osu/blackjack/*`.  
@@ -91,10 +91,13 @@ For this section, you are to write a test class in
 * 1-4 players each with a random `currentWallet` and an empty `currentHand`
 
 You are free to modify the source code of the Blackjack classes as you
-wish, but this is not required. 
+wish. If you make assumpetions or constraints on the creation of the random 
+test cases, document them in the comments of your test class.
 
 ## How to submit
 
+
+Create a new branch of your repository called hw5 containing your final submission. This branch must be created before the due date to receive credit, the latest commit prior to the deadline will be graded.
 ## Submission checklist 
 
 Did you `git add`
