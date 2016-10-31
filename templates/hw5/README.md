@@ -88,6 +88,7 @@ Did you `git add`
 * `submissions/hw5/report3.txt`
 * `submissions/hw5/src/test/.../VerifiedTest.java`
 *  At least one test class utilizing Mockito tests
+*  The modified source code in `submissions/hw5/src/main`
 
 Please also submit a link to your new branch via Canvas in the Assignments section.
 
