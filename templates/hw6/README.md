@@ -105,7 +105,7 @@ Did you `git add`
 * `submissions/hw6/src/test/java/edu/osu/sort/SortOracle.java`
 * `submissions/hw6/src/test/java/edu/osu/sort/SortTest.java`
 * At least one test class for `SimpleBlackjack` in `submissions/hw6/src/test/edu/osu/blackjack`
-* Any modifications to files in `submissions/hw6/src/test/java/edu/osu/sort/SortTest.java`
+* Any modifications to files in `submissions/hw6/src/main/*``
 
 Please also submit a link to your new branch via Canvas in the
 Assignments section and make sure your code compiles via `mvn
