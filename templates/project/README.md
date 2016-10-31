@@ -62,7 +62,7 @@ Write a test plan for your chosen codebase evaluating
  * [UISpec4J (for desktop UI testing)](https://github.com/UISpec4J/UISpec4J)
 
 Your test plan should be at least 1 page (250 words) but no more
-than 3 (750 words).
+than 3 (750 words).  Check your plan in to your repository as `PLAN.(md/pdf)` and also submit the plan via Canvas.
 
 ### Project Report Part II
 
@@ -81,7 +81,7 @@ a test report as a text or PDF file called `REPORT.(pdf/md)` describing your exp
 
 
 Your test report should be at least 3 pages (750 words) but no more
-than 6 (1500 words)
+than 6 (1500 words). Check your report in to your repository and also submit the report via Canvas.
 
 
 ## Grading
